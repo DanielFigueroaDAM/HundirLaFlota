@@ -28,5 +28,13 @@ public class HundirLaFlota {
             }
         }
     }
+    static boolean esNave(int valor_cordenada){
+        if(valor_cordenada > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
 }
